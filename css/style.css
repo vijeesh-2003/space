@@ -129,7 +129,7 @@ br.clear {
 }
 
 #home nav ul li{
-	margin-right: 10px ;
+	margin-right: 25px ;
 color:white;
 font-family:'OpenSans-Semibold';
 font-weight: 100px;
@@ -144,28 +144,29 @@ font-size:20px;
 /* spotlight */
 
 #spotlight{
-	margin-top:15%;
+	margin-top:4%;
 	text-align: center;
 }
 #spotlight h1{
 	display: inline-block;
 	width:100%;
 	color:white;
-	font-size: 65px;
+	font-size: 60px;
 	font-family: 'OpenSans-Regular';
 
 }
 #spotlight p{
 	color: white;
-	margin:32px 0;
-	font-size: 20px;
+	margin:19px 0;
+	font-size: 15px;
 	font-family:'OpenSans-Light';
 }
 #spotlight a.button{
 	background: #2d2d2d;
 	color:white;
 	font-size: 18px;
-	padding: 20px 55px;
+	padding: 18px 50px;
 	display: inline-block;
-    border-radius:30px;
+   border-radius:30px;
+	 
 }
