@@ -251,9 +251,195 @@ font-size:20px;
 	margin: 10px 0;
 }
 
-#spotlight p{
-	color: white;
-	margin:10px auto;
-	width:88
+ 
+
+
+
+
+
+#middel-sec{
+	padding:20px 0;
+
 
 }
+
+#middel-sec .wrapper{
+	width:90%;
+	margin: 0 auto;
+
+}
+
+#middel-sec .head{
+	font-size: 35px;
+	text-align: center;
+	color: #d1a223;
+	margin: 15px;
+
+
+}
+
+#middel-sec ul  {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+
+
+}
+#middel-sec ul .card {
+	width:48%;
+
+
+
+}
+
+#middel-sec ul .card h3{
+
+}
+
+#middel-sec ul .card  img {
+	width:80px;
+	
+	
+}
+#middel-sec  ul li.card{
+	padding:60px;
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1),0 0 10px 0 rgba(0,0,0,0.1);
+	
+}
+
+#middel-sec ul .card h3{
+	color: #d1a223;
+		text-transform: uppercase;
+	font-size: 25px;
+	 font-family: 'OpenSans-SemiBold';
+}
+
+#middel-sec  ul .card  p{
+	color:#a6a9aa;
+	margin-top: 25px;
+	font-size: 15px;
+}
+ #middel-sec ul .card a.button{
+	background:#d1a223;
+	color:white;
+	font-size: 18px;
+	padding: 17px 41px;
+	display: inline-block;
+   border-radius:30px;
+	 margin-top: 15px;
+
+ }
+
+
+
+    
+
+
+ 
+.main{
+	background: orange;
+	padding:60px 0;
+
+}
+
+.main .content
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main .right{
+	width:48%;
+}
+
+.main .content-middel{
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.main .content-middel p{
+background: green;
+font-color: #262626;
+}
+.main .left{
+	width:55%;
+	padding: 60px ;
+}
+
+.main .left h3 {
+	color:#fff;
+	font-size: 50px;
+}
+
+.main .left p{
+	color:#fff;
+	margin-top: 15px;
+	font-size: 22px;
+	
+}
+
+.main .right h3 {
+	color:#fff;
+	font-size: 50px;
+}
+
+
+
+.main .right p{
+	color:#fff;
+	margin-top: 15px;
+	font-size: 22px;
+	
+}
+
+
+
+  
+
+ /* footer */
+
+
+ footer .top{
+			background:#2d2d2d;
+		height:30vh;
+		
+
+ }
+  footer .top ul{
+		display: flex;
+		justify-content: space-around;
+		height: 30vh;
+		/* text-align: center; */
+		/* display: inline-block; */
+		/* align-items: center; */
+	  padding-top:40px;
+
+		
+	}
+  footer .top ul li{  
+   color: white;
+
+	}
+
+
+  footer .top ul li  span  {
+		display: inline-block;
+		width:40px;
+		padding-right: 10px;
+		
+	}		
+
+ footer .bottom{
+	background: black;
+	color:white;
+	display: flex;
+	justify-content: space-between;
+	height: 10vh;
+	align-items: center;
+ }
+
+
+  footer .top ul li  span img{
+		width: 100%;
+	}
